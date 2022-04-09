@@ -23,6 +23,11 @@ export default function Home() {
                 <a>Contact</a>
               </Link>
             </li>
+            <li>
+            <Link href="/error">
+                <a>Error</a>
+              </Link>
+            </li>
           </ul>
       </div>
     </>
