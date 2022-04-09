@@ -1,24 +1,21 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
-const blog = () => {
+const Blog = () => {
   return (
-    <>
-        <h1>Blog</h1>
-        <ul>
+      <>
+      <div>Blog</div>
+          <ul>
             <li>
               <Link href="/">
                 <a>Home</a>
               </Link>
             </li>
-            <li>
-            <Link href="/contact">
-                <a>Contact</a>
-              </Link>
-            </li>
           </ul>
+          <Image src='/beach.jpg' width={500} height={400} />
     </>
   )
 }
 
-export default blog
+export default Blog

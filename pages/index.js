@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import style from '../styles/Test.module.css'
 import Link from 'next/link'
 
@@ -18,7 +15,7 @@ export default function Home() {
             </li>
             <li>
             <Link href="/blog">
-                <a>About</a>
+                <a>Blog</a>
               </Link>
             </li>
             <li>

@@ -13,7 +13,7 @@ const Contact = () => {
             </li>
             <li>
             <Link href="/blog">
-                <a>About</a>
+                <a>Blog</a>
               </Link>
             </li>
           </ul>
