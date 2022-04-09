@@ -1,19 +1,19 @@
 import React from 'react'
 import Link from 'next/link'
 
-const blog = () => {
+const Contact = () => {
   return (
-    <>
-        <h1>Blog</h1>
-        <ul>
+      <>
+      <div>Contact</div>
+      <ul>
             <li>
               <Link href="/">
                 <a>Home</a>
               </Link>
             </li>
             <li>
-            <Link href="/contact">
-                <a>Contact</a>
+            <Link href="/blog">
+                <a>About</a>
               </Link>
             </li>
           </ul>
@@ -21,4 +21,4 @@ const blog = () => {
   )
 }
 
-export default blog
+export default Contact

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import style from '../styles/Test.module.css'
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -11,13 +12,19 @@ export default function Home() {
         <h1 className={style.title}>Asadulloh</h1>
           <ul>
             <li>
-              <a>Home</a>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
             </li>
             <li>
-              <a>About</a>
+            <Link href="/blog">
+                <a>About</a>
+              </Link>
             </li>
             <li>
-              <a>Contact</a>
+            <Link href="/contact">
+                <a>Contact</a>
+              </Link>
             </li>
           </ul>
       </div>
