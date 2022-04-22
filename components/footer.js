@@ -1,7 +1,11 @@
+
+import {BiCopyright} from "react-icons/bi"
+
+
 function Footer(){
     return(
-        <div>
-            <h1 className="footer">Footer</h1>
+        <div className="footer">
+            <BiCopyright/> Asadulloh Ruziev
         </div>
     )
 }

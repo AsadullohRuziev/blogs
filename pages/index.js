@@ -1,13 +1,13 @@
-import style from '../styles/Test.module.css'
 import Link from 'next/link'
-
+import { data } from "../data/data"
+import Cards from "../components/cards"
 
 export default function Home() {
   return (
     <>
-      <div className={style.box}>
-        <h1 className={style.title}>Asadulloh</h1>
-          <ul>
+      <div className="jn">
+        <Cards/>
+        {/* <ul>
             <li>
               <Link href="/">
                 <a>Home</a>
@@ -28,7 +28,7 @@ export default function Home() {
                 <a>Error</a>
               </Link>
             </li>
-          </ul>
+          </ul> */}
       </div>
     </>
   )

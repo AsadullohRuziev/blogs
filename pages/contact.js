@@ -1,22 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
-
+import Cards from '../components/cards'
 const Contact = () => {
   return (
       <>
-      <div>Contact</div>
-      <ul>
-            <li>
-              <Link href="/">
-                <a>Home</a>
-              </Link>
-            </li>
-            <li>
-            <Link href="/blog">
-                <a>Blog</a>
-              </Link>
-            </li>
-          </ul>
+      <Cards/>
     </>
   )
 }
